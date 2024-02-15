@@ -1,0 +1,1 @@
+import{a7 as t,O as o}from"./index-5cc15e35.js";const n=t("InvoiceStore",{actions:{fetchInvoices(){return o.get("/invoices")},fetchInvoice(e){return o.get("/invoice",{params:{invoiceId:e}})},deleteInvoice(e){return o.get("/invoice/delete",{params:{invoiceId:e}})}}});export{n as u};
