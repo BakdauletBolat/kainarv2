@@ -54,6 +54,7 @@ const deleteProduct = (productId) => {
         <VDataTable
           :search="searchProduct"
           show-select
+          hovera
           :headers="headers"
           :loading="loading"
           :items="warehouses"
@@ -63,7 +64,7 @@ const deleteProduct = (productId) => {
           <template #item.id="{ item }">
             <RouterLink
               :to="{
-                name: 'parts-list-detail',
+                name: 'warehouses-detail',
                 params: { id: item.raw.id },
               }"
               class="product-id"

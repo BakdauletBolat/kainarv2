@@ -9,6 +9,15 @@ export default [
     }
   },
   {
+    path: '/warehouses/:id',
+    name: 'warehouses-detail',
+    component: () => import('@/views/warehouses/detail/index.vue'),
+    meta: {
+      layout: 'content',
+      requiresAuth: true
+    }
+  },
+  {
     path: '/pages/search',
     name: 'pages-search',
     component: () => import('@/views/pages/search/index.vue'),

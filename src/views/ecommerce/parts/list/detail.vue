@@ -150,27 +150,6 @@ onMounted(() => {
   width: 50%;
   flex-direction: column;
 }
-.information-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-}
-.information-title {
-  color: grey;
-  font-size: 14px;
-}
-.information-description {
-  font-size: 16px;
-  margin-top: 12px;
-}
-.detail-info {
-  margin-top: 20px;
-  border-radius: 5px;
-  overflow: hidden;
-  width: 100%;
-  display: flex;
-  gap: 10px;
-}
 .product-id {
   color: rgba(var(--v-theme-on-surface), var(--v-high-emphasis-opacity));
 
